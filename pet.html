@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pet</title>
+	<meta charset="utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="pet.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--  <a class="attribution" href="http://fontawesome.io/"><i class="fa fa-font-awesome"></i> fontawesome.io</a>-->
+   
+</head>
+
+<body>
+
+   <div class = "header">
+    <a href="#pricentic" class = "logo">pricentic</a>
+
+     <div class = "navbar" id="navbar">
+        <a href="#FAQ" >FAQ</a>
+        <a href="file:///Users/anastasia/Desktop/shop/pet_about.html" target = '_parent'>About</a>
+     </div>
+
+   </div>
+
+   <div class = "instructions">
+
+     <div class = "instruction-box"> 
+       <h2>1. Pick</h2>
+       <p>Pick your favorite product on zappos, 6pm.. etc.</p>
+     </div>
+
+     <div class = "instruction-box"> 
+      <h2>2. Add</h2>
+      <p>Add the product on our service with friendly price</p>
+     </div>
+
+     <div class = "instruction-box"> 
+      <h2>3. Get</h2>
+      <p>Get the notification on your email if the price changes</p>
+     </div>
+
+   </div>
+
+
+   <div id="container">
+    <div id="search">
+        <label for="searchInput"> <i class="fa fa-search"></i></label>
+        <input id="searchInput" type="text" placeholder="Search">
+    </div>
+
+   <!-- <div class = "search">
+    <input type="text" id="searchBar" onkeyup = searchItem() placeholder="   Search for item..." >
+    <ul id = "itemList"></ul>
+   </div> -->
+
+   <div class="dropdown-filter">
+
+    <button onclick="dropdownFunction()" class="dropbtn">Filter</button>
+
+    <div id="myDropdown" class="dropdown-content">
+
+<a><span class = 'input-text'>categories</span>
+  <input type="text" class="dropdown-input" >
+</a>
+
+<a><span class = 'input-text'>shops</span>
+  <input type="text" class="dropdown-input" >
+</a>
+    <!--   <div class = "drop-options">Categories</div>
+    <input type="dropdown" class= 'drop-choose' id="categories"  placeholder="Choose category">-->
+      </div>
+     
+    <!--  <div class = "drop-options">Shops</div>
+       <input type="dropdown" class= 'drop-choose' id="shops"  placeholder="Choose a shop">-->
+  
+  </div>
+</div>
+
+<div class = "itemContainer" id = "itemContainer">
+<!-- <div class='item_card'>
+    
+ <span class="ribbon ribbon"><span class="ribbon-inner-wrap"><span class="ribbon-border"></span><span class="ribbon-text"> 
+    <div id="percent_sale"></div>
+ </span></span> 
+
+</div> -->
+</div>
+
+
+
+
+ <!--<div class = "btn"> 
+ <button type="button" class="btn" id = "btn"  >Click me!</button>
+</div> 
+<p></p>
+
+  <div class="stars">
+    <a href="#1" title="Give 1 star">★</a>
+    <a href="#2" title="Give 2 stars">★</a>
+    <a href="#3" title="Give 3 stars">★</a>
+    <a href="#4" title="Give 4 stars">★</a>
+    <a href="#5" title="Give 5 stars">★</a>
+</div> -->
+
+
+
+<div id="pagin">
+    <ul>
+      <li class="pagination"><a href="">1</a></li>
+      <li class="pagination"><a href="">2</a></li>
+      <li class="pagination"><a href="">3</a></li>
+      <li class="pagination"><a href="">4</a></li>
+      <li class=" pagination"><a href="">5</a></li>
+      <li>...</li>
+      <li class="pagination"><a href="">279</a></li>
+    </ul>
+  </div>
+
+</body>
+
+
+ <script src="pet.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+
+ <footer>
+
+<div class = 'footer-info'>
+<p class = 'footer-text'> The source code is licensed.<br>
+  © 2022 - <a class = 'footer-link' href = 'https://pricentic.com/' target = '_blank'>pricentic.com</a></p>
+  <p class = 'footer-text'>Have any questions?
+  <a class = 'footer-link' href = 'mailto:pricentic@gmail.com'>pricentic@gmail.com</a></p>
+</div>
+
+ </footer>
